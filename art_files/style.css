@@ -1,0 +1,238 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #f2f2f2;
+}
+
+a:hover, a:focus,
+.btn:hover,
+.btn:focus,
+.btn:active:hover,
+.btn:active:focus {
+  outline: 0;
+}
+
+/*######################################## Home ##########################################*/
+/**************************** STYLE for navbar ****************************/
+.navbar-default {
+  background-color: #323030;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+.navbar-default .navbar-toggle {
+  float: none;
+  padding: 10px 11px 9px;
+  border: 0;
+  position: absolute;
+  left: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  width: 18px;
+}
+.navbar-default .navbar-nav > .open > a {
+  color: #fff;
+  background: none;
+}
+.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background: none;
+}
+.navbar-default .navbar-control {
+  /*margin-top: -50px;*/
+  position: absolute;
+  top: -8px;
+  right: 15px;
+}
+.navbar-default .navbar-control li {
+  float: left;
+}
+.navbar-default .navbar-control > li > a {
+  color: #bbb;
+  padding: 16px 8px 11px;
+}
+.navbar-default .navbar-control > li > a:hover, .navbar-default .navbar-control > li > a:focus {
+  color: #bbb;
+}
+.navbar-default .navbar-control li .material-icons {
+  font-size: 18px;
+}
+.navbar-default .navbar-control .unread-notification {
+  width: 10px;
+  height: 10px;
+  background-color: #d0021b;
+  border: 1px solid #323030;
+  border-right: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 9px;
+}
+
+.navbar-header {
+  text-align: center;
+  min-height: 50px;
+}
+
+.navbar-brand {
+  float: none;
+  display: inline-block;
+  height: auto;
+  padding: 17px 0 9px;
+}
+.navbar-brand img {
+  width: 112px;
+}
+
+.nav li a {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.navbar-collapse {
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar-collapse > .navbar-nav > li > a {
+  color: #fff;
+  padding: 11px 15px;
+  border-top: 1px solid #444;
+}
+.navbar-collapse > .navbar-nav > li > a:hover, .navbar-collapse > .navbar-nav > li > a:focus {
+  color: #fff;
+  border-color: #444;
+}
+.navbar-collapse > .navbar-nav > li.user-nav > a {
+  border-bottom: 1px solid #444;
+}
+.navbar-collapse > .navbar-nav > .active > a {
+  color: #fff;
+  background: none;
+}
+.navbar-collapse > .navbar-nav > .active > a:hover, .navbar-collapse > .navbar-nav > .active > a:focus {
+  color: #fff;
+  background: none;
+}
+.navbar-collapse > .navbar-nav .open .dropdown-menu {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-collapse > .navbar-nav .open .dropdown-menu > li > a {
+  font-size: 14px;
+  color: #bbb;
+  padding: 11px 24px;
+  border-top: 1px solid #444;
+}
+.navbar-collapse > .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-collapse > .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #bbb;
+}
+.navbar-collapse > .navbar-nav .user-nav.open .dropdown-menu > li:first-child > a {
+  border: 0;
+}
+.navbar-collapse > .navbar-nav .user-nav.open .dropdown-menu > li:last-child > a {
+  border-bottom: 1px solid #444;
+}
+.navbar-collapse > .navbar-nav .arrow {
+  position: absolute;
+  right: 7px;
+  top: 11px;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+  color: #666;
+}
+
+.search-input {
+  padding-left: 27px;
+  height: 30px;
+}
+
+.main-form {
+  position: relative;
+  margin: 8px -8px 0;
+}
+.main-form:before {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+  content: "\E8B6";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  color: #999;
+}
+
+.user-nav img {
+  width: 24px;
+  margin-right: 17px;
+  border-radius: 50%;
+}
+
+.icon-share {
+  color: #8ec05c;
+}
+
+.icon-add {
+  color: #e6b422;
+}
+
+.icon-favorite {
+  color: #de2277;
+}
+
+.icon-comment {
+  color: #999;
+}
+
+.icon-message {
+  color: #999;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: inherit;
+}

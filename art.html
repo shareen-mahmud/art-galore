@@ -6,9 +6,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Art Galore</title>
-        
+
+        <!-- Bootstrap -->
+        <link href="./art_files/bootstrap.min.css" rel="stylesheet">
+        <!-- Roboto fonts -->
+        <link href="./art_files/css" rel="stylesheet">
+        <link href="./art_files/icon" rel="stylesheet">
+        <!-- Custom Stylesheet -->
+        <link href="./art_files/style.css" rel="stylesheet">
+
   </head>
   <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">
+                      <img src="./art_files/logo@2x.png" alt="Art Galore Logo">
+                  </a>
+              </div>
 
+              <ul class="nav navbar-nav navbar-control">
+                  <li class="dropdown hidden-xs hidden-sm">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">cloud_upload</i></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Image</a></li>
+                          <li><a href="#">Youtube URL</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#"><i class="material-icons">message</i></a></li>
+                  <li class="notification-toggle" data-toggle="collapse" data-target="#notification" aria-expanded="false" aria-controls="notification">
+                      <a href="#">
+                          <i class="material-icons">notifications</i>
+                          <span class="unread-notification"></span>
+                      </a>
+                  </li>
+              </ul>
+
+              <div id="navbar" class="collapse navbar-collapse" style="max-height: 582px;">
+                  <form class="main-form" role="search">
+                      <input type="text" class="form-control search-input" placeholder="Search">
+                  </form>
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Posts</a></li>
+                      <li><a href="#">Artists</a></li>
+                      <li><a href="#">Patrons</a></li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="visible-xs">Other</span><i class="material-icons hidden-xs">more_horiz</i><i class="material-icons visible-xs arrow">keyboard_arrow_down</i></a>
+                      </li>
+                      <li class="user-nav dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="./art_files/shareen@2x.jpg" alt="User"><span class="user-name visible-xs">Shareen Mahmud</span><i class="material-icons visible-xs arrow">keyboard_arrow_down</i></a>
+                      </li>
+                  </ul>
+              </div>
+              <!--/.nav-collapse -->
+          </div>
+      </nav>
+      <!-- nav END -->
   </body>
 </html>
