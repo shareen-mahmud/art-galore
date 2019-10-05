@@ -206,6 +206,19 @@ a:hover, a:focus,
   border-radius: 50%;
 }
 
+.notification-collapse {
+  position: absolute;
+  width: 280px;
+  right: 0;
+  top: 50px;
+  z-index: 10;
+}
+.notification-collapse .navbar-nav {
+  background-color: #323030;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .icon-share {
   color: #8ec05c;
 }
@@ -224,6 +237,74 @@ a:hover, a:focus,
 
 .icon-message {
   color: #999;
+}
+
+.notification-collapse > .navbar-nav > li {
+  padding: 0 16px;
+}
+.notification-collapse > .navbar-nav > li > a {
+  font-size: 14px;
+  color: #bbb;
+  padding: 4px 0 5px;
+  border-color: #444;
+}
+.notification-collapse > .navbar-nav > li > a:hover, .notification-collapse > .navbar-nav > li > a:focus {
+  color: #bbb;
+  border-color: #444;
+}
+.notification-collapse > .navbar-nav > li .notification-item-info {
+  overflow: hidden;
+}
+.notification-collapse > .navbar-nav > li .notification-item-text span {
+  font-weight: 500;
+}
+.notification-collapse > .navbar-nav > li:first-child > a {
+  border: 0;
+}
+.notification-collapse > .navbar-nav .material-icons {
+  font-size: 18px;
+  float: left;
+  margin-right: 17px;
+  margin-top: 3px;
+}
+.notification-collapse > .navbar-nav .icon-a-g {
+  background: url("../images/icon-a-g@2x.png") no-repeat;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+}
+.notification-collapse > .navbar-nav .icon-favorite {
+  margin-top: 2px;
+}
+.notification-collapse > .navbar-nav .notification-item-time {
+  font-size: 12px;
+  display: block;
+  color: #999;
+}
+.notification-collapse > .navbar-nav .notification-link-all {
+  color: #fff;
+  padding: 10px 0;
+}
+.notification-collapse > .navbar-nav .notification-pointer {
+  width: 8px;
+  height: 8px;
+  background-color: #a73836;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  right: 8px;
+}
+.notification-collapse > .navbar-nav .icon-followed {
+  background: url("../images/icon-user-follow@2x.png") no-repeat;
+  background-size: 17px 14px;
+  width: 17px;
+  height: 14px;
+  margin-top: 4px;
+}
+
+.navbar-collapse.notification-collapse {
+  margin: 0;
 }
 
 .dropdown-menu {
