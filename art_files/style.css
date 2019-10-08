@@ -12,6 +12,20 @@ a:hover, a:focus,
   outline: 0;
 }
 
+.no-margin-padding, .filter-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+}
+
+label {
+  font-weight: 400;
+  color: #212224;
+}
+
 /*######################################## Home ##########################################*/
 /**************************** STYLE for navbar ****************************/
 .navbar-default {
