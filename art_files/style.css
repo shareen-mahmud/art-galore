@@ -17,13 +17,71 @@ a:hover, a:focus,
   padding: 0;
 }
 
+.tooltip {
+  z-index: 999;
+}
+
+.tooltip.in {
+  /*filter: alpha(opacity=80);
+  opacity: .8;*/
+  opacity: 1;
+}
+
 .container {
   position: relative;
+}
+
+.btn-primary {
+  background-color: #e6b422;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background-color: #e8ad00;
+  border: 0;
+  outline: 0;
+}
+
+.btn-lg {
+  padding: 13px 69px;
 }
 
 label {
   font-weight: 400;
   color: #212224;
+}
+
+.form-control {
+  height: 34px;
+  padding: 6px 10px;
+  color: #333;
+  border-radius: 3px;
+  background-color: #fff;
+  border: solid 1px #bbb;
+}
+.form-control:focus {
+  border-color: #e6b422;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  height: 120px;
+  resize: vertical;
+}
+
+.panel {
+  margin-top: 4px;
+  margin-bottom: 24px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  box-shadow: none;
 }
 
 /**************************** media query ****************************/
