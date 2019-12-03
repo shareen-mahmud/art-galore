@@ -902,6 +902,17 @@ textarea.form-control {
   .notification-collapse.collapse.in {
     display: block !important;
   }
+  .photograph-lists {
+    border-color: #bbb;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .photograph-tile {
+    margin-bottom: 29px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.15);
+    /*border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;*/
+  }
 }
 
 @media (min-width: 992px) {
