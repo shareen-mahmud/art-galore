@@ -903,3 +903,83 @@ textarea.form-control {
     display: block !important;
   }
 }
+
+@media (min-width: 992px) {
+  /********************* STYLE for navbar ******************/
+  .navbar-collapse > .navbar-nav > li > a {
+    padding: 15px 13px 14px;
+  }
+
+  #navbar.navbar-collapse {
+    padding-left: 15px;
+  }
+
+  .nav li.user-nav {
+    right: 215px;
+  }
+  .nav li.dropdown a {
+    padding: 14px 0 7px 12px;
+  }
+
+  .navbar-default .navbar-control {
+    margin-right: 259px;
+  }
+  .navbar-default .navbar-control > li > a {
+    padding: 13px 13px 8px 11px;
+  }
+  .navbar-default .navbar-control > li:first-child > a {
+    padding-top: 12px;
+    padding-bottom: 9px;
+  }
+  .navbar-default .navbar-control .unread-notification {
+    top: 14px;
+    right: 15px;
+  }
+
+  .navbar-control .open li > a {
+    padding: 14px 18px;
+  }
+
+  .notification-collapse {
+    right: 40px;
+  }
+
+  .notification-collapse > .navbar-nav > li > a {
+    padding: 4px 0 5px;
+    border-top: 1px solid #444;
+  }
+
+  .main-form {
+    right: 15px;
+  }
+
+  .photograph-response li {
+    margin-left: 13px;
+  }
+  .photograph-response .material-icons {
+    margin-right: 6px;
+  }
+
+  /**************************** STYLE for photograph-lists ****************************/
+  .photograph-artist .tooltip {
+    top: -49px !important;
+    right: 8px;
+  }
+  .photograph-artist .tooltip .tooltip-arrow {
+    left: 95% !important;
+    margin-left: -3px;
+    border-width: 8px 4px 0;
+  }
+  .photograph-artist .tooltip-inner {
+    width: 204px;
+  }
+
+  .overlay.overlay-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .photograph-link .overlay-inner {
+    bottom: 10px;
+  }
+}
